@@ -18,6 +18,12 @@ h1 {
     text-align: center;
 }
 
+#scrollText {
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+    padding: 0px;
+}
 
 /*Scrolling Text -Start*/
 

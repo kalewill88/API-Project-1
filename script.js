@@ -1,6 +1,6 @@
 const apiUrl = 'https://catfact.ninja/fact';
 
-// setInterval(getAPI, 3000);
+//   setInterval(getAPI, 3000);
 
 async function getAPI() {
     const response = await fetch(apiUrl);
@@ -11,7 +11,7 @@ async function getAPI() {
     let random = resp.fact
     document.getElementById('scrollText').innerHTML = random;
 }
-getAPI()
+  getAPI()
 
 
 
