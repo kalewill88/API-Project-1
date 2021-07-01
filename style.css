@@ -22,46 +22,46 @@ h1 {
 /*Scrolling Text -Start*/
 
 .scroll-right {
- height: 50px;	
- overflow: hidden;
- position: relative;
- color: black;
- border: none;
- position: right;
- width: 100%;
- height: 100%;
- margin: 0;
- line-height: 50px;
- text-align: center;
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+    color: black;
+    border: none;
+    position: right;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
  /* Starting position */
- -moz-transform:translateX(-100%);
- -webkit-transform:translateX(-100%);	
- transform:translateX(-100%);
+    -moz-transform:translateX(-100%);
+    -webkit-transform:translateX(-100%);	
+    transform:translateX(-100%);
  /* animation for element */	
- -moz-animation: scroll-right 30s linear infinite;
- -webkit-animation: scroll-right 30s linear infinite;
- animation: scroll-right 30s linear infinite;
+    -moz-animation: scroll-right 30s linear infinite;
+    -webkit-animation: scroll-right 30s linear infinite;
+    animation: scroll-right 30s linear infinite;
 }
 /* Scroll Keyframes */
 @-moz-keyframes scroll-right {
- 0%   { -moz-transform: translateX(-100%); }
- 100% { -moz-transform: translateX(100%); }
+    0%   { -moz-transform: translateX(-100%); }
+    100% { -moz-transform: translateX(100%); }
 }
 @-webkit-keyframes scroll-right {
- 0%   { -webkit-transform: translateX(-100%); }
- 100% { -webkit-transform: translateX(100%); }
+    0%   { -webkit-transform: translateX(-100%); }
+    100% { -webkit-transform: translateX(100%); }
 }
 @keyframes scroll-right {
 0%   { 
- -moz-transform: translateX(-100%); 
- -webkit-transform: translateX(-100%); 
- transform: translateX(-100%); 		
- }
- 100% { 
- -moz-transform: translateX(100%); 
- -webkit-transform: translateX(100%); 
- transform: translateX(100%); 
- }
+    -moz-transform: translateX(-100%); 
+    -webkit-transform: translateX(-100%); 
+    transform: translateX(-100%); 		
+    }
+100% { 
+    -moz-transform: translateX(100%); 
+    -webkit-transform: translateX(100%); 
+    transform: translateX(100%); 
+    }
 }
 
 /* Cloud Animation-Start */
